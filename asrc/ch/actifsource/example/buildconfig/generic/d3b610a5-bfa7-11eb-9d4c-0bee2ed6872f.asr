@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="d3b610a5-bfa7-11eb-9d4c-0bee2ed6872f">
+  <owns predicate="2789b8e7-3c32-11db-99ea-73d5aa89e9be">
+    <resource statement-guid="d3b637cc-bfa7-11eb-9d4c-0bee2ed6872f" type="resource" guid="d3b637ba-bfa7-11eb-9d4c-0bee2ed6872f" />
+  </owns>
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="d3b637bc-bfa7-11eb-9d4c-0bee2ed6872f" type="resource" guid="7b665745-d469-11da-8f5e-0f17beaa2c29" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="d3b637bd-bfa7-11eb-9d4c-0bee2ed6872f" type="literal">NestedBuildConfig</object>
+  </predicate>
+  <predicate guid="2789b8e7-3c32-11db-99ea-73d5aa89e9be">
+    <object statement-guid="d3b637cc-bfa7-11eb-9d4c-0bee2ed6872f">
+      <resource guid="d3b637ba-bfa7-11eb-9d4c-0bee2ed6872f">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="d3b637ca-bfa7-11eb-9d4c-0bee2ed6872f" type="resource" guid="11b444f7-dc94-11dd-8de2-bb051d76fa6e" />
+        </predicate>
+        <predicate guid="f251d91b-d8d4-11de-85c5-f93550bd5ed1">
+          <object statement-guid="d3b637cb-bfa7-11eb-9d4c-0bee2ed6872f" type="resource" guid="ba5c80ed-bfa7-11eb-9d4c-0bee2ed6872f" />
+        </predicate>
+      </resource>
+    </object>
+  </predicate>
+</resource>
+
