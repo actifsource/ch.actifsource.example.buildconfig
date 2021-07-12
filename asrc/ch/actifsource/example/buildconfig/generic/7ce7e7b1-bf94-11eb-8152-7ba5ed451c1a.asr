@@ -12,6 +12,11 @@
         <resource statement-guid="5d104948-bf96-11eb-8368-e9b1492902a8" type="resource" guid="5d0f10c4-bf96-11eb-8368-e9b1492902a8" />
       </owns>
     </resource>
+    <resource statement-guid="0a59b059-e2da-11eb-933c-a3621d8934e4" type="resource" guid="0a596236-e2da-11eb-933c-a3621d8934e4">
+      <owns predicate="3d47d3fe-f91f-11d9-bb45-5fabdff7c7da">
+        <resource statement-guid="0b3f7c7e-e2da-11eb-933c-a3621d8934e4" type="resource" guid="0b3eb92a-e2da-11eb-933c-a3621d8934e4" />
+      </owns>
+    </resource>
   </owns>
   <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
     <object statement-guid="7ce80ec3-bf94-11eb-8152-7ba5ed451c1a" type="resource" guid="7b665745-d469-11da-8f5e-0f17beaa2c29" />
@@ -68,6 +73,28 @@
               </predicate>
               <predicate guid="3c91f17c-f91f-11d9-bb45-5fabdff7c7da">
                 <object statement-guid="5d0ffb27-bf96-11eb-8368-e9b1492902a8" type="resource" guid="e86e96de-723c-11df-9c68-7b41eb0451c8" />
+              </predicate>
+            </resource>
+          </object>
+        </predicate>
+      </resource>
+    </object>
+    <object statement-guid="0a59b059-e2da-11eb-933c-a3621d8934e4">
+      <resource guid="0a596236-e2da-11eb-933c-a3621d8934e4">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="0a598948-e2da-11eb-933c-a3621d8934e4" type="resource" guid="b54498e8-723c-11df-9c68-7b41eb0451c8" />
+        </predicate>
+        <predicate guid="3d47d3fe-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="0b3f7c7e-e2da-11eb-933c-a3621d8934e4">
+            <resource guid="0b3eb92a-e2da-11eb-933c-a3621d8934e4">
+              <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+                <object statement-guid="0b3ee03c-e2da-11eb-933c-a3621d8934e4" type="resource" guid="360ec494-f91f-11d9-bb45-5fabdff7c7da" />
+              </predicate>
+              <predicate guid="3c0568eb-f91f-11d9-bb45-5fabdff7c7da">
+                <object statement-guid="0bd2bbcf-e2da-11eb-933c-a3621d8934e4" type="literal">ch.actifsource.example.buildconfig.DependencyWorkspaceTaskFactory</object>
+              </predicate>
+              <predicate guid="3c91f17c-f91f-11d9-bb45-5fabdff7c7da">
+                <object statement-guid="0b3f2e5d-e2da-11eb-933c-a3621d8934e4" type="resource" guid="e86e96de-723c-11df-9c68-7b41eb0451c8" />
               </predicate>
             </resource>
           </object>

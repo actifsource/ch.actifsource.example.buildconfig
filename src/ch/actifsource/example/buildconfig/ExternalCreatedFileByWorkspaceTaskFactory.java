@@ -67,7 +67,7 @@ public class ExternalCreatedFileByWorkspaceTaskFactory implements IWorkspaceTask
   private static void syncFileIfNotExists(IAsFile file, IGeneratorConsole console) {
     IFile resource = file.getAdapter(IFile.class);
     if (resource.exists()) {
-      console.warning().print("Test: "+ObjectUtil.getSimpleName(resource.getClass()) + " " + resource.getName() + " allready exist");
+      console.warning().print("Test: "+ObjectUtil.getSimpleName(resource.getClass()) + " " + resource.getName() + " allready exist.\n");
       return;
     }
     if (!resource.isSynchronized(IResource.DEPTH_ZERO)) {
@@ -76,7 +76,7 @@ public class ExternalCreatedFileByWorkspaceTaskFactory implements IWorkspaceTask
       } catch (CoreException e) {
         throw ch.actifsource.util.Assert.fail(e);
       }
-      console.warning().print("Test: "+ObjectUtil.getSimpleName(resource.getClass()) + " " + resource.getName() + " was out of sync with filesystem, refreshed");
+      console.warning().print("Test: "+ObjectUtil.getSimpleName(resource.getClass()) + " " + resource.getName() + " was out of sync with filesystem, refreshed.\n");
     }
   }
   

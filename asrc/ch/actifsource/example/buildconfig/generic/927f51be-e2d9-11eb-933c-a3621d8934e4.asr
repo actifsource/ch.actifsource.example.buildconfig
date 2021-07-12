@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="927f51be-e2d9-11eb-933c-a3621d8934e4">
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="927f78d0-e2d9-11eb-933c-a3621d8934e4" type="resource" guid="2576b879-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="32d2854d-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="92806332-e2d9-11eb-933c-a3621d8934e4" type="resource" guid="270595db-f91f-11d9-bb45-5fabdff7c7da" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="927fee01-e2d9-11eb-933c-a3621d8934e4" type="literal">ClassA</object>
+  </predicate>
+</resource>
+
