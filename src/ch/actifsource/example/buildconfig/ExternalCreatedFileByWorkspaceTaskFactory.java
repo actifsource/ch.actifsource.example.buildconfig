@@ -22,7 +22,8 @@ import ch.actifsource.util.file.IAsFolder;
 
 public class ExternalCreatedFileByWorkspaceTaskFactory implements IWorkspaceTaskFactory {
   
-  private static final String fFileName = "ExternalCreatedFile.txt";
+  private static final String fFileNameCreatedInsideEclipse = "ExternalCreatedFileInsideEclipse.txt";
+  private static final String fFileNameCreatedOutsideEclipse = "ExternalCreatedFileOutsideEclipse.txt";
   
   @Override
   public IBuildTask create(INode buildTask, ICancelStatus status) throws GenerationException {
@@ -37,12 +38,17 @@ public class ExternalCreatedFileByWorkspaceTaskFactory implements IWorkspaceTask
         try {
           IAsFolder targetFolder = buildTargetInfo.getTargetFolder();
           
-          // Create file inside external library or tool.
-          File externCreatedfile = new File(targetFolder.getUrl().getPath()+"/"+fFileName);
+          /** Create file inside external library or tool. */
+          File externCreatedfile = new File(targetFolder.getUrl().getPath()+"/"+fFileNameCreatedInsideEclipse);
           externCreatedfile.createNewFile();
           
-          // Read external created file and sync with eclipse workspace
-          IAsFile file = targetFolder.getFile(fFileName);
+          /** Create file outside the project or workspace. Synchronization of the workspace does not need to be performed, as the case is located outside of eclipse. */
+          File outputProjectFolder = buildTargetInfo.getOutputScope().getFolder("").getAdapter(File.class);
+          File externalLocation = new File(outputProjectFolder, "../"+fFileNameCreatedOutsideEclipse);
+          externalLocation.createNewFile();
+          
+          /** Read external created file and sync with eclipse workspace */
+          IAsFile file = targetFolder.getFile(fFileNameCreatedInsideEclipse);
           syncFileIfNotExists(file, console);
           
           InputStream inputStream = file.getContents();
