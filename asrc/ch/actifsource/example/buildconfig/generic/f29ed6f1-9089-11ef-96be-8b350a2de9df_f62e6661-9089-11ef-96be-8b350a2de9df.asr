@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource format="5.6.0" guid="f62e6661-9089-11ef-96be-8b350a2de9df">
+  <owns predicate="6f13c2c2-1e8e-11ef-9f83-53488697d8ef">
+    <resource statement-guid="f62e6668-9089-11ef-96be-8b350a2de9df" type="resource" guid="f62e6662-9089-11ef-96be-8b350a2de9df" />
+  </owns>
+  <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="f62e6663-9089-11ef-96be-8b350a2de9df" type="resource" guid="ae5ee1b1-1e82-11ef-9f83-53488697d8ef" />
+  </predicate>
+  <predicate guid="33fc8660-f91f-11d9-bb45-5fabdff7c7da">
+    <object statement-guid="f62e6664-9089-11ef-96be-8b350a2de9df" type="literal">TestTextEditorConfig</object>
+  </predicate>
+  <predicate guid="6f13c2c2-1e8e-11ef-9f83-53488697d8ef">
+    <object statement-guid="f62e6668-9089-11ef-96be-8b350a2de9df">
+      <resource guid="f62e6662-9089-11ef-96be-8b350a2de9df">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="f62e6665-9089-11ef-96be-8b350a2de9df" type="resource" guid="6a3c2316-1e8e-11ef-9f83-53488697d8ef" />
+        </predicate>
+        <predicate guid="21143c45-1e91-11ef-9f83-53488697d8ef">
+          <object statement-guid="f62e6666-9089-11ef-96be-8b350a2de9df" type="literal">Start ImportedText</object>
+        </predicate>
+        <predicate guid="34161c68-1e91-11ef-9f83-53488697d8ef">
+          <object statement-guid="f62e6667-9089-11ef-96be-8b350a2de9df" type="literal">End ImportedText</object>
+        </predicate>
+      </resource>
+    </object>
+  </predicate>
+</resource>
+
