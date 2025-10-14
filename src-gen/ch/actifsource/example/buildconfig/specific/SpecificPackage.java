@@ -25,4 +25,4 @@ public class SpecificPackage {
   }
   
 }
-/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.buildconfig.specific,Ycx8McQWulF9H5yBc6wclf17irI=] */
+/* Actifsource ID=[c1a07b92-fc09-11e0-b756-0dc1d96a76cb,ch.actifsource.example.buildconfig.specific,+rzKfLOfu4p8+E/RDjQi/0Fw7Vw=] */
