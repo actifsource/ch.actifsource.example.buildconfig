@@ -25,6 +25,7 @@
         <resource statement-guid="afabba40-0429-11ec-a642-072b2d4e6b5f" type="resource" guid="afab6c1d-0429-11ec-a642-072b2d4e6b5f" />
       </owns>
     </resource>
+    <resource statement-guid="8b162780-6eca-11f1-b3f7-857538d9f5a3" type="resource" guid="8b16006b-6eca-11f1-b3f7-857538d9f5a3" />
   </owns>
   <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
     <object statement-guid="7ce80ec3-bf94-11eb-8152-7ba5ed451c1a" type="resource" guid="7b665745-d469-11da-8f5e-0f17beaa2c29" />
@@ -140,6 +141,32 @@
               </predicate>
             </resource>
           </object>
+        </predicate>
+      </resource>
+    </object>
+    <object statement-guid="8b162780-6eca-11f1-b3f7-857538d9f5a3">
+      <resource guid="8b16006b-6eca-11f1-b3f7-857538d9f5a3">
+        <predicate guid="3169f49a-f91f-11d9-bb45-5fabdff7c7da">
+          <object statement-guid="8b16006d-6eca-11f1-b3f7-857538d9f5a3" type="resource" guid="5a83bff4-7f58-11e3-a9fd-01e9aba5be54" />
+        </predicate>
+        <predicate guid="6d3890d4-7f58-11e3-a9fd-01e9aba5be54">
+          <object statement-guid="a4c37d4b-6eca-11f1-b3f7-857538d9f5a3" type="literal">cmd</object>
+        </predicate>
+        <predicate guid="836487bc-7f58-11e3-a9fd-01e9aba5be54">
+          <object statement-guid="620ff5cd-6ecd-11f1-b3f7-857538d9f5a3" type="literal">/c</object>
+          <object statement-guid="630dddce-6ecd-11f1-b3f7-857538d9f5a3" type="literal">test-echo.bat</object>
+        </predicate>
+        <predicate guid="a9fd2d90-7f5b-11e3-a9fd-01e9aba5be54">
+          <object statement-guid="a1210cbc-6ecb-11f1-b3f7-857538d9f5a3" type="literal">script</object>
+        </predicate>
+        <predicate guid="23bf5cd1-59e4-11e9-ae63-6fee0fc0cfac">
+          <object statement-guid="8b16277e-6eca-11f1-b3f7-857538d9f5a3" type="literal">true</object>
+        </predicate>
+        <predicate guid="44b6b198-59e4-11e9-ae63-6fee0fc0cfac">
+          <object statement-guid="8b16277f-6eca-11f1-b3f7-857538d9f5a3" type="literal">true</object>
+        </predicate>
+        <predicate guid="b2bed8eb-59e7-11e9-ae63-6fee0fc0cfac">
+          <object statement-guid="9f3a1989-6eca-11f1-b3f7-857538d9f5a3" type="resource" guid="ede15c68-2a94-11df-8816-4f7e5baa3710" />
         </predicate>
       </resource>
     </object>
